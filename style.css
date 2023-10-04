@@ -1,10 +1,12 @@
 
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .part-one {
@@ -29,6 +31,7 @@ body {
     font-weight: 900;
     color: white;
     align-self: flex-end;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .small-para {
@@ -42,9 +45,10 @@ body {
    font-size: 18px;
    padding-left: 20px;
    padding-right: 20px;
-   background-color: white;
+   background-color:#212927;
    border-radius: 10px;
-   color: black;
+   color:#33a1f0;
+   border: 2px white solid;
 }
 
 .big-img {
@@ -59,6 +63,7 @@ body {
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .nba {
@@ -79,3 +84,92 @@ li {
     padding: 25px;
     padding-left: 25px;
 }
+
+.part-two {
+    margin: 25px;
+    margin-bottom: 50px;
+}
+
+.mid {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.small-img {
+    height: 175px;
+    width: 175px;
+}
+
+.text {
+    text-align: center; 
+    width: 200px; 
+}
+
+.bottom-two {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    padding: 0;
+}
+
+.part-three {
+    background-color:#e5e7eb ;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.part-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.all {
+    background-color: #33a1f0;
+    width: 750px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.bold {
+    font-size: 36px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.desc {
+    margin-bottom: 10px;
+}
+
+.button-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-two {
+    font-size: 18px;
+    background-color:#33a1f0;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px white solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
